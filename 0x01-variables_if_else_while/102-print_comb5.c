@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Prints numbers between 00 to 99. ana homa hadak +omor 
+ * main - Prints numbers between 00 to 99.pp
  *
  * Return: Always 0 (Success)
  */

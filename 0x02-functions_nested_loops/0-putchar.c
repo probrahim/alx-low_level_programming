@@ -1,15 +1,17 @@
-#include "main.h"
+#include "0-putchar.c"
 /**
- * main - prints _putchar, followed by a new line.
- * Return: 0
- **/
+ * main - Prints Holberton as a message.
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-unsigned int i;
-char c[] = "_putchar";
-for (i = 0; i <= 7; i++)						
+int str[] = {72, 111, 108, 98, 101, 114, 116, 111, 110};
+int count, sz;
+sz = sizeof(str) / sizeof(int);
+for (count = 0; count < sz; count++)
 {
-_putchar(c[i]);
+_putchar(str[count]);
 }
 _putchar('\n');
 return (0);

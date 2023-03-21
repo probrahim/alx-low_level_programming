@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _islower - Checks if a character is lowercase.
- * mohawala 1-00.
+ * @c: The character to be checked.
  *
  * Return: 1 if character is lowercase, 0 otherwise.
  */

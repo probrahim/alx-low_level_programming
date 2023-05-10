@@ -2,10 +2,10 @@
 #define MAIN_H
 
 /*
- * File: main.h
+ * File: holberton.h
  * Auth: Godswill Kalu
  * Desc: Header file containing prototypes for all functions
- *       task : 0x14-file_io
+ *       written in the 0x14-file_io directory.
  */
 
 #include <sys/types.h>
@@ -17,4 +17,4 @@ ssize_t read_textfile(const char *filename, size_t letters);
 int create_file(const char *filename, char *text_content);
 int append_text_to_file(const char *filename, char *text_content);
 
-#endif /* main.h */
+#endif /* MAIN_H */

@@ -27,5 +27,5 @@ char *_strdup(char *str)
 		p++;
 	}
 	return (psd);
-
+	
 }

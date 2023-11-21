@@ -90,15 +90,14 @@ char **strtow(char *str)
 			free(strings);
 			return (NULL);
 		}
-        l = 0;
-        while(l < letters)
-        {
-          strings[w][l] = str[index++];
-          l++;
-        }
-		strings[w][l] = '\0';
-	}
-	strings[w] = NULL;
-
-	return (strings);
+l = 0;
+while(l < letters)
+{
+    strings[w][l] = str[index++];
+    l++;
+    }
+    strings[w][l] = '\0';
+    }
+    strings[w] = NULL;
+    return (strings);
 }

@@ -1,18 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "main.h"
-/**	
+/**
  * _strdup - duplicate to new memory space location
  * @str: char
  * Return: 0
  */
-char *_strdup(char *str)	
+char *_strdup(char *str)
 {
-	char *psd;		
-	int	i; 
+	char *psd;
+	int	i;
 	int	p;
 
-	p = 0;	
+	p = 0;
 	if (str == NULL)
 		return (NULL);
 	i = 0;
@@ -26,5 +26,6 @@ char *_strdup(char *str)
 		psd[p] = str[p];
 		p++;
 	}
-	return (psd);		
+	return (psd);
+
 }

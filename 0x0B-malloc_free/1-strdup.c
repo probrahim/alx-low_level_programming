@@ -7,7 +7,7 @@
  * Return: 0
  */
 char *_strdup(char *str)
-{
+	{
 	char *psd;
 	int	i;
 	int	p;
@@ -26,5 +26,5 @@ char *_strdup(char *str)
 		psd[p] = str[p];
 		p++;
 	}
-	return (psd);
-}
+		return (psd);
+	}

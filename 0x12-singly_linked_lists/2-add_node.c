@@ -11,20 +11,29 @@
 
 list_t *add_node(list_t **head, const char *str)
 {
-    list_t *png;
-    size_t kol;
+	char *dup;
+	int len;
+	list_t *new;
 
-    png = malloc(sizeof(list_t));
-    if (png == NULL)
-        return (NULL);
+	new = malloc(sizeof(list_t));
+	if (new == NULL)
+		return (NULL);
 
-    png->str = strdup(str);
+	dup = strdup(str);
+	if (dup == NULL)
+	{
+		free(new);
+		return (NULL);
+	}
+	for (len = 0; str[len];)
+		len++;
 
-    for(kol = 0; str[kol]; kol++)
+	new->str = dup;
+	new->len = len;
+	new->next = *head;
 
-    png->len = kol;
-    png->next = *head;
-    *head = png;
+	*head = new;
 
-    return(*head);
+	return (new);
+
 }

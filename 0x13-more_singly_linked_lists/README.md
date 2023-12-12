@@ -8,10 +8,7 @@ This repository contains solutions to additional tasks related to singly linked 
 
 1. [Files](#files)
 2. [Usage](#usage)
-3. [Compilation](#compilation)
-4. [Testing](#testing)
-5. [Contributing](#contributing)
-6. [License](#license)
+<hr><hr>
 
 ## Files
 

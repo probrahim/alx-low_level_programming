@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository contains solutions to additional tasks related to singly linked lists. The tasks are part of the Holberton School curriculum and are aimed at furthering understanding of linked lists in C programming.
+This repository contains solutions to additional tasks related to singly linked lists. The tasks are part of the <strong>ALX</strong> School curriculum and are aimed at furthering understanding of linked lists in C programming.
 
 ## Table of Contents
 

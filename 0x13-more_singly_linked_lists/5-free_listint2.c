@@ -1,5 +1,4 @@
 #include "lists.h"
-
 /**
  * free_listint2 - frees a list
  * @head: double pointer

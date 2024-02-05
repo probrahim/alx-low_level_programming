@@ -1,6 +1,9 @@
 # ALX Low Level Programming
 
-![ALX Low Level Programming](https://camo.githubusercontent.com/8a9c7f854df987a0b488caf7b4ca6fb56e368e1a0b85602574da94c19d1c2d2e/68747470733a2f2f70687973696373677572756b756c2e66696c65732e776f726470726573732e636f6d2f323031392f30322f6368617261637465722d312e676966)
+![ALX Low Level Programming]
+<p align="center">
+  <img src="https://camo.githubusercontent.com/8a9c7f854df987a0b488caf7b4ca6fb56e368e1a0b85602574da94c19d1c2d2e/68747470733a2f2f70687973696373677572756b756c2e66696c65732e776f726470726573732e636f6d2f323031392f30322f6368617261637465722d312e676966"  alt="ALX Low Level Programming" width="400" height="300"/> 
+</p>
 
 Ce référentiel contient les projets et les exercices réalisés dans le cadre du programme ALX Software Engineering - Low Level Programming. Le programme se concentre sur l'apprentissage des langages de programmation de bas niveau et des concepts fondamentaux de développement logiciel.
 

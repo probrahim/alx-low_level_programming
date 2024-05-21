@@ -1,7 +1,14 @@
 #include "search_algos.h"
 
-
-
+/**
+ * jump_search - searches for a value in an array
+ *
+ *
+ * @array : to input array
+ * @size : len
+ * @value : value to found
+ * Return: index of the number
+*/
 
 int jump_search(int *array, size_t size, int value)
 {
